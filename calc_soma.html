@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Soma</h1>
+
+<form method="POST">
+    <input type="number" step="any" name="n1" placeholder="Número 1" required>
+    <input type="number" step="any" name="n2" placeholder="Número 2" required>
+    <button type="submit">Somar</button>
+</form>
+
+{% if resultado != None %}
+<h3>Resultado: {{ resultado }}</h3>
+{% endif %}
+{% endblock %}

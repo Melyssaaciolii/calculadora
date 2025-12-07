@@ -1,0 +1,107 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h1 class="titulo-center">Calculadora Completa</h1>
+<p class="subtitulo-center">Escolha um módulo abaixo</p>
+
+<div class="grid">
+
+    <!-- Áreas -->
+    <a class="card" href="/area/circulo">
+        <div class="icon">⚪</div>
+        <h3>Área do Círculo</h3>
+    </a>
+
+    <a class="card" href="/area/triangulo">
+        <div class="icon">🔺</div>
+        <h3>Área do Triângulo</h3>
+    </a>
+
+    <a class="card" href="/area/retangulo">
+        <div class="icon">▭</div>
+        <h3>Área do Retângulo</h3>
+    </a>
+
+    <a class="card" href="/area/quadrado">
+        <div class="icon">⬛</div>
+        <h3>Área do Quadrado</h3>
+    </a>
+
+    <a class="card" href="/area/losango">
+        <div class="icon">⬣</div>
+        <h3>Área do Losango</h3>
+    </a>
+
+    <!-- Volumes -->
+    <a class="card" href="/volume/esfera">
+        <div class="icon">🌐</div>
+        <h3>Volume da Esfera</h3>
+    </a>
+
+    <a class="card" href="/volume/cubo">
+        <div class="icon">🧊</div>
+        <h3>Volume do Cubo</h3>
+    </a>
+
+    <a class="card" href="/volume/cilindro">
+        <div class="icon">🥫</div>
+        <h3>Volume do Cilindro</h3>
+    </a>
+
+    <a class="card" href="/volume/piramide">
+        <div class="icon">🔺📦</div>
+        <h3>Volume da Pirâmide</h3>
+    </a>
+
+    <a class="card" href="/volume/prisma">
+        <div class="icon">📦</div>
+        <h3>Volume do Prisma</h3>
+    </a>
+
+    <!-- Matemática -->
+    <a class="card" href="/mat/inequacao">
+        <div class="icon">🧮</div>
+        <h3>Inequação (Delta)</h3>
+    </a>
+
+    <a class="card" href="/mat/juros_simples">
+        <div class="icon">💰</div>
+        <h3>Juros Simples</h3>
+    </a>
+
+    <a class="card" href="/juros_compostos">
+        <div class="icon">📈</div>
+        <h3>Juros Compostos</h3>
+    </a>
+
+    <!-- Calculadora -->
+    <a class="card" href="/calc/soma">
+        <div class="icon">➕</div>
+        <h3>Soma</h3>
+    </a>
+
+    <a class="card" href="/calc/subtracao">
+        <div class="icon">➖</div>
+        <h3>Subtração</h3>
+    </a>
+
+    <a class="card" href="/calc/multiplicacao">
+        <div class="icon">✖️</div>
+        <h3>Multiplicação</h3>
+    </a>
+
+    <a class="card" href="/calc/divisao">
+        <div class="icon">➗</div>
+        <h3>Divisão</h3>
+    </a>
+
+    <!-- Quadrática -->
+    <a class="card" href="/calc/quadratica">
+        <div class="icon">√</div>
+        <h3>Função Quadrática</h3>
+    </a>
+
+</div>
+
+{% endblock %}
